@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --fonte1: 'Roboto', sans-serif;
+    --color1: #0096C7;
+    --color2: #caf0f8;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--fonte1);
+}
+
+.Logo {
+    text-align: center;
+    padding: 35px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #03bcfab2, #0096C7);
+    color: white;
+}
+
+
+
+.Logo > p {
+    font-size: 16px;
+    font-weight: light;
+}
+
+.Menu {
+    background-color: var(--color1);
+    color: rgb(224, 224, 224);
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.377);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.Menu > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.616);
+    padding: 5px;
+    margin: 0px 5px 0px 5px;
+}
+
+.Menu > a:hover {
+    color: var(--color1);
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.Corpo {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.509);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Corpo p {
+    margin: 15px 0px 15px 0;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.Corpo a {
+    text-decoration: none;
+    color: var(--color1);
+}
+
+.Corpo a:hover {
+    text-decoration: underline;
+}
+
+.Corpo img {
+    display: block;
+    margin: auto;
+}
+
+.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.Subinfo {
+    color: rgba(133, 133, 133, 0.76);
+    font-weight: light;
+    font-size: 12px;
+    text-align: left;
+
+}
+
+.Título h1 {
+    font-size: 28px;
+    padding-left: 26px;
+}
+
+.Share {
+    display: flex;
+    margin-left: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Share > a {
+    padding-right: 20px;
+    margin: 10px 15px 15px 0px;
+}
+
+.Subinfo#Concerto {
+    margin: 10px 0px 0px 0px;
+}
+
+footer {
+    background-color: var(--color1);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
