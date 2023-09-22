@@ -14,54 +14,52 @@ Computador e acesso a internet
 
 ### Glossário de tags <HTML>
 
-**<!DOCTYPE html>**: Este é um comando HTML que define o tipo de documento sendo usado, neste caso, HTML5.
+**!DOCTYPE html>**: Este é um comando HTML que define o tipo de documento sendo usado, neste caso, HTML5.
 
-**<html lang="pt-br">**: Abre a tag HTML e define o idioma padrão do documento como português do Brasil.
+**html lang="pt-br">**: Abre a tag HTML e define o idioma padrão do documento como português do Brasil.
 
-**<head>**: Abre a seção do cabeçalho do documento, onde as configurações e metadados são definidos.
+**head>**: Abre a seção do cabeçalho do documento, onde as configurações e metadados são definidos.
 
-**<meta charset="UTF-8">**: Define a codificação de caracteres como UTF-8, que é um padrão amplamente usado para suportar caracteres especiais e internacionais.
+**meta charset="UTF-8">**: Define a codificação de caracteres como UTF-8, que é um padrão amplamente usado para suportar caracteres especiais e internacionais.
 
-**<meta name="viewport" content="width=device-width, initial-scale=1.0">**: Define a configuração da viewport, controlando como a página é dimensionada em dispositivos móveis. Isso permite que o site seja responsivo.
+**meta name="viewport" content="width=device-width, initial-scale=1.0">**: Define a configuração da viewport, controlando como a página é dimensionada em dispositivos móveis. Isso permite que o site seja responsivo.
 
-**<title>**: Define o título da página exibido na barra de título do navegador.
+**title>**: Define o título da página exibido na barra de título do navegador.
 
-**<link rel="stylesheet" href="style.css">**: Conecta o arquivo CSS externo "style.css" ao documento HTML, permitindo que o estilo da página seja controlado separadamente.
+**link rel="stylesheet" href="style.css">**: Conecta o arquivo CSS externo "style.css" ao documento HTML, permitindo que o estilo da página seja controlado separadamente.
 
-**<link rel="shortcut icon" href="Imagens/StarTec.png" type="image/x-icon">**: Define o ícone da página exibido na guia do navegador, que é um atalho para o site.
+**link rel="shortcut icon" href="Imagens/StarTec.png" type="image/x-icon">**: Define o ícone da página exibido na guia do navegador, que é um atalho para o site.
 
-**<body>**: Abre a seção principal do corpo da página, onde todo o conteúdo visível é colocado.
+**body>**: Abre a seção principal do corpo da página, onde todo o conteúdo visível é colocado.
 
-**<div class="Logo">**: Cria uma divisão (um bloco) com a classe "Logo" que pode ser estilizada usando CSS.
+**div class="Logo">**: Cria uma divisão (um bloco) com a classe "Logo" que pode ser estilizada usando CSS.
 
-**<h1>**: Cria um cabeçalho de primeiro nível, geralmente usado para títulos importantes.
+**h1>**: Cria um cabeçalho de primeiro nível, geralmente usado para títulos importantes.
 
-**<nav class="Menu">**: Define uma barra de navegação que contém links para outras páginas ou seções do site.
+**nav class="Menu">**: Define uma barra de navegação que contém links para outras páginas ou seções do site.
 
-**<a href="index.html">**: Cria um link para outra página ou recurso com o URL especificado dentro do atributo "href".
+**a href="index.html">**: Cria um link para outra página ou recurso com o URL especificado dentro do atributo "href".
 
-**<article class="Corpo">**: Define uma seção de conteúdo principal, como um artigo, que pode ser estilizada usando CSS.
+**article class="Corpo">**: Define uma seção de conteúdo principal, como um artigo, que pode ser estilizada usando CSS.
 
-**<p>**: Cria um parágrafo de texto.
+**p>**: Cria um parágrafo de texto.
 
-**<br>**: Insere uma quebra de linha para separar elementos ou parágrafos.
+**br>**: Insere uma quebra de linha para separar elementos ou parágrafos.
 
-**<img>**: Exibe uma imagem na página com o atributo "src" especificando o caminho da imagem e "alt" contendo um texto alternativo para acessibilidade.
+**img>**: Exibe uma imagem na página com o atributo "src" especificando o caminho da imagem e "alt" contendo um texto alternativo para acessibilidade.
 
-**<i>**: Define o texto como itálico.
+**i>**: Define o texto como itálico.
 
-**<a href="URL" target="_blank">**: Cria um link para outra página da web com a URL especificada e abre essa URL em uma nova janela ou aba do navegador.
+**a href="URL" target="_blank">**: Cria um link para outra página da web com a URL especificada e abre essa URL em uma nova janela ou aba do navegador.
 
-**<iframe>**: Permite incorporar um vídeo do YouTube na página.
+**iframe>**: Permite incorporar um vídeo do YouTube na página.
 
-**<footer>**: Define o rodapé da página, geralmente contendo informações de contato ou direitos autorais.
+**footer>**: Define o rodapé da página, geralmente contendo informações de contato ou direitos autorais.
 
-**<script>**: Abre uma seção para incorporar scripts JavaScript na página.
-
-As funções JavaScript no final do código são usadas para compartilhar o conteúdo da página nas redes sociais (WhatsApp, email, Twitter e Facebook) quando os links correspondentes são clicados.
+**script>**: Abre uma seção para incorporar scripts JavaScript na página.
 
 Este código HTML é uma estrutura básica para criar uma página da web e exibir conteúdo, estilização e interatividade.
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+
 
 ## ⚙️ Executando os testes
 
