@@ -58,69 +58,115 @@ Computador e acesso a internet
 
 **script>**: Abre uma seção para incorporar scripts JavaScript na página.
 
+As pseudoclasses HTML são usadas para aplicar estilos a elementos HTML com base em estados ou características específicas que não podem ser selecionadas apenas com seletores de elementos ou classes. Elas permitem que você selecione elementos com base em interações do usuário, como passar o mouse sobre um elemento, clicar nele ou o estado atual do elemento, como se está focado, segue as pseudoclasses usadas:
+Logo, Menu, Corpo, Título, Subinfo, Concerto, informação, Autor
+
 Este código HTML é uma estrutura básica para criar uma página da web e exibir conteúdo, estilização e interatividade.
 
 
-## ⚙️ Executando os testes
+## ⚙️ Glossário de tags <CSS>
 
-Explicar como executar os testes automatizados para este sistema.
+**@charset "UTF-8";**: Define a codificação de caracteres do arquivo CSS como UTF-8, que suporta caracteres especiais e internacionais.
 
-### 🔩 Analise os testes de ponta a ponta
+**@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');**: Importa uma fonte chamada "Roboto" do Google Fonts para ser usada no estilo da página.
 
-Explique que eles verificam esses testes e porquê.
+**:root**: Define as variáveis globais CSS que podem ser reutilizadas em todo o documento.
 
-```
-Dar exemplos
-```
+**--fonte1**: Define uma variável de fonte que é usada para definir a família de fontes "Roboto" para todo o documento.
 
-### ⌨️ E testes de estilo de codificação
+**--color1** e **--color2**: Definem variáveis de cores que podem ser usadas em todo o documento para manter um esquema de cores consistente.
 
-Explique que eles verificam esses testes e porquê.
+**\***: Seleciona todos os elementos HTML na página.
 
-```
-Dar exemplos
-```
+**padding: 0px; margin: 0px;**: Remove preenchimento e margens padrão de todos os elementos, garantindo um layout consistente.
 
-## 📦 Implantação
+**font-family: var(--fonte1);**: Define a família de fontes para todos os elementos como a variável --fonte1, ou seja, "Roboto".
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+**.Logo**: Seleciona elementos com a classe "Logo" para aplicar estilos específicos.
+
+**text-align: center; padding: 35px; margin: auto;**: Centraliza o texto e define preenchimento e margens específicos para elementos com a classe "Logo".
+
+**background-image**: Define um fundo gradiente para a classe "Logo".
+
+**.Menu**: Seleciona elementos com a classe "Menu" para aplicar estilos específicos.
+
+**background-color**: Define a cor de fundo da classe "Menu".
+
+**box-shadow**: Adiciona uma sombra ao elemento "Menu".
+
+**border-bottom-left-radius** e **border-bottom-right-radius**: Arredonda as bordas inferiores do elemento "Menu".
+
+**.Menu > a**: Seleciona elementos âncora dentro da classe "Menu" para aplicar estilos específicos.
+
+**text-decoration**: Remove a decoração de link padrão.
+
+**:hover**: Aplica estilos quando o cursor do mouse está sobre o link.
+
+**.Corpo**: Seleciona elementos com a classe "Corpo" para aplicar estilos específicos.
+
+**background-color**: Define a cor de fundo da classe "Corpo".
+
+**min-width** e **max-width**: Define a largura mínima e máxima para o elemento "Corpo".
+
+**margin**: Define margens para centralizar o elemento "Corpo".
+
+**box-shadow**: Adiciona uma sombra ao elemento "Corpo".
+
+**border-bottom-left-radius** e **border-bottom-right-radius**: Arredonda as bordas inferiores do elemento "Corpo".
+
+**.Corpo p**: Seleciona parágrafos dentro da classe "Corpo" para aplicar estilos específicos.
+
+**text-align**: Define o alinhamento do texto.
+
+**text-indent**: Define o recuo da primeira linha do texto.
+
+**font-size** e **line-height**: Controlam o tamanho da fonte e o espaçamento entre linhas.
+
+**.Corpo a**: Seleciona links dentro da classe "Corpo" para aplicar estilos específicos.
+
+**.Corpo img**: Seleciona imagens dentro da classe "Corpo" para aplicar estilos específicos.
+
+**.video**: Seleciona elementos com a classe "video" para aplicar estilos específicos.
+
+**position**: Define a posição dos elementos de vídeo.
+
+**.video > iframe**: Seleciona iframes dentro da classe "video" para aplicar estilos específicos.
+
+**.Subinfo**: Seleciona elementos com a classe "Subinfo" para aplicar estilos específicos.
+
+**.Título h1**: Seleciona elementos h1 dentro da classe "Título" para aplicar estilos específicos.
+
+**.Share**: Seleciona elementos com a classe "Share" para aplicar estilos específicos.
+
+**.Share > a**: Seleciona âncoras dentro da classe "Share" para aplicar estilos específicos.
+
+**.Subinfo#Concerto**: Seleciona elementos com a classe "Subinfo" que também têm o ID "Concerto" para aplicar estilos específicos.
+
+**footer**: Seleciona o elemento footer para aplicar estilos específicos.
+
+Esses estilos CSS são usados para formatar e estilizar a página da web, garantindo consistência visual em toda a página. As variáveis CSS são usadas para manter o código mais organizado e facilitar a manutenção do estilo da página.
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
+Ferramentas que foram utilizadas na criação do projeto: 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fonte
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+Criado por Victor Hugo Ferreira Soares
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este é um código público e livre, fique a vontade para baixa-lo e edita-lo da maneira que preferir.
+
 
 ## 🎁 Expressões de gratidão
 
 * Conte a outras pessoas sobre este projeto 📢;
 * Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
+* Um agradecimento especial ao Gustavo Guanabara por me ajudar a construir este site;
 
 
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+⌨️ com ❤️ por [Victor](https://github.com/victorsoaresho) 😊
