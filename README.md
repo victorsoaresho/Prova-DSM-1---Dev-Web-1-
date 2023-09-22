@@ -12,7 +12,7 @@ O projeto foi construído em HTML e CSS puro, sendo assim para execulta-lo, bast
 
 Computador e acesso a internet
 
-### Glossário de tags <HTML>
+### Glossário de tags HTML>
 
 **!DOCTYPE html>**: Este é um comando HTML que define o tipo de documento sendo usado, neste caso, HTML5.
 
@@ -64,7 +64,7 @@ Logo, Menu, Corpo, Título, Subinfo, Concerto, informação, Autor
 Este código HTML é uma estrutura básica para criar uma página da web e exibir conteúdo, estilização e interatividade.
 
 
-## ⚙️ Glossário de tags <CSS>
+## ⚙️ Glossário de tags CSS>
 
 **@charset "UTF-8";**: Define a codificação de caracteres do arquivo CSS como UTF-8, que suporta caracteres especiais e internacionais.
 
