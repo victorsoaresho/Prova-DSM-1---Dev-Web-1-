@@ -165,7 +165,7 @@ Este é um código público e livre, fique a vontade para baixa-lo e edita-lo da
 
 * Conte a outras pessoas sobre este projeto 📢;
 * Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento especial ao Gustavo Guanabara por me ajudar a construir este site;
+  
 
 
 ---
